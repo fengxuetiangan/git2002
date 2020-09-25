@@ -1,0 +1,989 @@
+bash: f:: command not found
+
+Administrator@PC-20180120JSDD MINGW64 ~/Desktop
+$ mkdir git2020
+
+Administrator@PC-20180120JSDD MINGW64 ~/Desktop
+$ cd git2020/
+
+Administrator@PC-20180120JSDD MINGW64 ~/Desktop/git2020
+$ git init
+Initialized empty Git repository in C:/Users/Administrator/Deskto                     p/git2020/.git/
+
+Administrator@PC-20180120JSDD MINGW64 ~/Desktop/git2020 (master)
+$ ls -a
+./  ../  .git/
+
+Administrator@PC-20180120JSDD MINGW64 ~/Desktop/git2020 (master)
+$ cd..
+bash: cd..: command not found
+
+Administrator@PC-20180120JSDD MINGW64 ~/Desktop/git2020 (master)
+$ cd
+
+Administrator@PC-20180120JSDD MINGW64 ~
+$ cd desktop
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop
+$ cd git2020
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ clear
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ cd .git
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020/.git (GIT                     _DIR!)
+$ ls
+config  description  HEAD  hooks/  info/  objects/  refs/
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020/.git (GIT                     _DIR!)
+$ cd.
+bash: cd.: command not found
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020/.git (GIT                     _DIR!)
+$ cd..
+bash: cd..: command not found
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020/.git (GIT                     _DIR!)
+$ cd ..
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ pwd
+/c/Users/Administrator/desktop/git2020
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ touch t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ vim t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git add t1.txt
+warning: LF will be replaced by CRLF in t1.txt.
+The file will have its original line endings in your working dire                     ctory.
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ cat t1.txt
+
+hello fubao
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git commit -m "create new file named t1.txt and write hello fub                     ao"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Administrator@PC                     -20180120JSDD.(none)')
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git config --global user.email "1757582775@qq.com"
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git config --global user.name "fengxuetiangan"
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git commit -m "create new file named t1.txt and write hello fub                     ao"
+[master (root-commit) 535b539] create new file named t1.txt and w                     rite hello fubao
+ 1 file changed, 2 insertions(+)
+ create mode 100644 t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ history
+    1* '~$
+    2  ls
+    3  cd Desktop
+    4  cd Desktop/
+    5  pwd
+    6  ls
+    7  ls -a
+    8  ls -l
+    9  ls -a-l
+   10  ls -a -al
+   11  ls -al
+   12  ls -ll
+   13  jistory
+   14  history
+   15  12
+   16  ls -ll
+   17  history 10
+   18  touch a1.tat
+   19  mkdir wen
+   20  dir wen
+   21  rmkir wen
+   22  rmdir wen
+   23  mkdir check
+   24  cd check
+   25  mkdir 11
+   26  cd..
+   27  cd
+   28  cd Desktop
+   29  rmdir check
+   30  rm -r check
+   31  rm -ri a1.tat
+   32  n
+   33  rm -ri a1.tat
+   34  touch a1.tet
+   35  rm -rf a1.tet
+   36  pwd
+   37  touch a2.tyt
+   38  touch a3.txt
+   39  cat a3.txt
+   40  cat a3.txt
+   41  head -2 a3.txt
+   42  tail -3 a3.txt
+   43  tac a3.txt
+   44  cd a3.txt
+   45  vim a3.txt
+   46  vim a3.txt
+   47  history
+   48  vim a3.txt
+   49  vim a3.txt
+   50  vim a3.txt
+   51  history
+   52  history
+   53  vim a3.txt
+   54  vim a3.txt
+   55  pwd
+   56  ls
+   57  ls -l
+   58  clear
+   59  ls
+   60  rm -ri '~$39-侯庆春-8分钟.pptx'
+   61  ls
+   62  rm -ri '~$活动.docc'
+   63  rm -ri '~$活动.doc'
+   64  ls
+   65  less a3.txt
+   66  more a3.txt
+   67  little a3.txt
+   68  most a3.txt
+   69  less a3.txt
+   70  history
+   71  clear
+   72  f:
+   73  mkdir git2020
+   74  cd git2020/
+   75  git init
+   76  ls -a
+   77  cd..
+   78  cd
+   79  cd desktop
+   80  cd git2020
+   81
+   82  clear
+   83  cd .git
+   84  ls
+   85  cd.
+   86  cd..
+   87  cd ..
+   88  pwd
+   89  touch t1.txt
+   90  vim t1.txt
+   91  git add t1.txt
+   92  cat t1.txt
+   93  git commit -m "create new file named t1.txt and write hell                     o fubao"
+   94  git config --global user.email "1757582775@qq.com"
+   95  git config --global user.name "fengxuetiangan"
+   96  git commit -m "create new file named t1.txt and write hell                     o fubao"
+   97  history
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ vim t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git add t1.txt
+warning: LF will be replaced by CRLF in t1.txt.
+The file will have its original line endings in your working dire                     ctory.
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ vim t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git add t1.txt
+warning: LF will be replaced by CRLF in t1.txt.
+The file will have its original line endings in your working dire                     ctory.
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git commit -m "create new file named t1.txt and write cao and b                     ao"
+[master 7296a15] create new file named t1.txt and write cao and b                     ao
+ 1 file changed, 2 insertions(+)
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ vim t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working                      directory)
+
+        modified:   t1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git commit -m "delete and bao"                                                      On branch master
+Changes not staged for commit:
+        modified:   t1.txt
+
+no changes added to commit
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working                      directory)
+
+        modified:   t1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git add t1.txt
+warning: LF will be replaced by CRLF in t1.txt.
+The file will have its original line endings in your working dire                     ctory.
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   t1.txt
+
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git diff
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git log
+commit 7296a157428c365763698085286ad6eef510fcba
+Author: fengxuetiangan <1757582775@qq.com>
+Date:   Thu Sep 24 16:26:30 2020 +0800
+
+    create new file named t1.txt and write cao and bao
+
+commit 535b539776bc88aa0ccd04c84834316c028ace42
+Author: fengxuetiangan <1757582775@qq.com>
+Date:   Thu Sep 24 16:16:13 2020 +0800
+
+    create new file named t1.txt and write hello fubao
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ 535b539776bc88aa0ccd04c84834316c028ace42
+bash: 535b539776bc88aa0ccd04c84834316c028ace42: command not found
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ ^C
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git log --pretty=onrline
+fatal: invalid --pretty format: onrline
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git log --pretty=oneline
+7296a157428c365763698085286ad6eef510fcba create new file named t1                     .txt and write cao and bao
+535b539776bc88aa0ccd04c84834316c028ace42 create new file named t1                     .txt and write hello fubao
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ vim t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git add t1.txt
+warning: LF will be replaced by CRLF in t1.txt.
+The file will have its original line endings in your working dire                     ctory.
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git commit -m "add"
+[master af2f9e5] add
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git log --pretty=oneline
+af2f9e5d5286ea1d60dbb42f76ca3a2d45bbb8dd add
+7296a157428c365763698085286ad6eef510fcba create new file named t1                     .txt and write cao and bao
+535b539776bc88aa0ccd04c84834316c028ace42 create new file named t1                     .txt and write hello fubao
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ head~2
+bash: head~2: command not found
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git head~1
+git: 'head~1' is not a git command. See 'git --help'.
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git commit id=7296a157428c365763698085286ad6eef510fcba
+error: pathspec 'id=7296a157428c365763698085286ad6eef510fcba' did                      not match any file(s) known to git.
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ cat t1.txt
+
+hello fubao
+2020.10.04
+cao 2020.10
+here he coming
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git reset --hard head^
+HEAD is now at 7296a15 create new file named t1.txt and write cao                      and bao
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ cat t1.txt
+
+hello fubao
+2020.10.04
+cao 2020.101
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git log --pretty=oneline
+7296a157428c365763698085286ad6eef510fcba create new file named t1                     .txt and write cao and bao
+535b539776bc88aa0ccd04c84834316c028ace42 create new file named t1                     .txt and write hello fubao
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git reset --hard af2f9e5
+HEAD is now at af2f9e5 add
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ cat t1.txt
+
+hello fubao
+2020.10.04
+cao 2020.10
+here he coming
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git reflog
+
+af2f9e5 HEAD@{0}: reset: moving to af2f9e5
+7296a15 HEAD@{1}: reset: moving to head^
+af2f9e5 HEAD@{2}: commit: add
+7296a15 HEAD@{3}: commit: create new file named t1.txt and write                      cao and bao
+535b539 HEAD@{4}: commit (initial): create new file named t1.txt                      and write hello fubao
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ vim t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git add t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git commit -m 'add thought'
+[master 672075a] add thought
+ 1 file changed, 1 insertion(+)
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git log
+commit 672075ae734c6972da258b12646152e27cf6df36
+Author: fengxuetiangan <1757582775@qq.com>
+Date:   Thu Sep 24 17:21:54 2020 +0800
+
+    add thought
+
+commit af2f9e5d5286ea1d60dbb42f76ca3a2d45bbb8dd
+Author: fengxuetiangan <1757582775@qq.com>
+Date:   Thu Sep 24 17:01:48 2020 +0800
+
+    add
+
+commit 7296a157428c365763698085286ad6eef510fcba
+Author: fengxuetiangan <1757582775@qq.com>
+Date:   Thu Sep 24 16:26:30 2020 +0800
+
+    create new file named t1.txt and write cao and bao
+
+commit 535b539776bc88aa0ccd04c84834316c028ace42
+Author: fengxuetiangan <1757582775@qq.com>
+Date:   Thu Sep 24 16:16:13 2020 +0800
+
+    create new file named t1.txt and write hello fubao
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git log --pretty oneline
+fatal: ambiguous argument 'oneline': unknown revision or path not                      in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git log --pretty=oneline
+672075ae734c6972da258b12646152e27cf6df36 add thought
+af2f9e5d5286ea1d60dbb42f76ca3a2d45bbb8dd add
+7296a157428c365763698085286ad6eef510fcba create new file named t1                     .txt and write cao and bao
+535b539776bc88aa0ccd04c84834316c028ace42 create new file named t1                     .txt and write hello fubao
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git reflog
+672075a HEAD@{0}: commit: add thought
+af2f9e5 HEAD@{1}: reset: moving to af2f9e5
+7296a15 HEAD@{2}: reset: moving to head^
+af2f9e5 HEAD@{3}: commit: add
+7296a15 HEAD@{4}: commit: create new file named t1.txt and write                      cao and bao
+535b539 HEAD@{5}: commit (initial): create new file named t1.txt                      and write hello fubao
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ get reset --hard head^
+bash: get: command not found
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git reset --hard head^
+HEAD is now at af2f9e5 add
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git reset --hard 672075a
+HEAD is now at 672075a add thought
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ vim ttxt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ vim t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working                      directory)
+
+        modified:   t1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ttxt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ cat t1.txt
+
+hello fubao
+2020.10.04
+cao 2020.10
+here he coming
+I hearing what you want to thought
+you are good!
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git checkout -- t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ cat t1.txt
+
+hello fubao
+2020.10.04
+cao 2020.10
+here he coming
+I hearing what you want to thought
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ vim t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git add t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   t1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ttxt
+
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ cat t1.txt
+
+hadsjkhk
+hello fubao
+2020.10.04
+cao 2020.10
+here he coming
+I hearing what you want to thought
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git reset head t1.txt
+Unstaged changes after reset:
+M       t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ cat t1.txt
+
+hadsjkhk
+hello fubao
+2020.10.04
+cao 2020.10
+here he coming
+I hearing what you want to thought
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git checkout -- t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ cat t1.txt
+
+hello fubao
+2020.10.04
+cao 2020.10
+here he coming
+I hearing what you want to thought
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ttxt
+
+nothing added to commit but untracked files present (use "git add                     " to track)
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ n
+bash: n: command not found
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ ls
+t1.txt  ttxt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ rm -ri ttxt
+rm: remove regular empty file 'ttxt'? y
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ ls
+t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ ls -a
+./  ../  .git/  t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ ls -l
+total 1
+-rw-r--r-- 1 Administrator 197121 92 9月  24 17:31 t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ ls -ll
+total 1
+-rw-r--r-- 1 Administrator 197121 92 9月  24 17:31 t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ ls -al
+total 25
+drwxr-xr-x 1 Administrator 197121  0 9月  24 17:34 ./
+drwxr-xr-x 1 Administrator 197121  0 9月  24 15:59 ../
+drwxr-xr-x 1 Administrator 197121  0 9月  24 17:33 .git/
+-rw-r--r-- 1 Administrator 197121 92 9月  24 17:31 t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git log
+commit 672075ae734c6972da258b12646152e27cf6df36
+Author: fengxuetiangan <1757582775@qq.com>
+Date:   Thu Sep 24 17:21:54 2020 +0800
+
+    add thought
+
+commit af2f9e5d5286ea1d60dbb42f76ca3a2d45bbb8dd
+Author: fengxuetiangan <1757582775@qq.com>
+Date:   Thu Sep 24 17:01:48 2020 +0800
+
+    add
+
+commit 7296a157428c365763698085286ad6eef510fcba
+Author: fengxuetiangan <1757582775@qq.com>
+Date:   Thu Sep 24 16:26:30 2020 +0800
+
+    create new file named t1.txt and write cao and bao
+
+commit 535b539776bc88aa0ccd04c84834316c028ace42
+Author: fengxuetiangan <1757582775@qq.com>
+Date:   Thu Sep 24 16:16:13 2020 +0800
+
+    create new file named t1.txt and write hello fubao
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git log --pretty=oneline
+672075ae734c6972da258b12646152e27cf6df36 add thought
+af2f9e5d5286ea1d60dbb42f76ca3a2d45bbb8dd add
+7296a157428c365763698085286ad6eef510fcba create new file named t1.txt and write cao and bao
+535b539776bc88aa0ccd04c84834316c028ace42 create new file named t1.txt and write hello fubao
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ touch file1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ vim file1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git add file1.txt
+warning: LF will be replaced by CRLF in file1.txt.
+The file will have its original line endings in your working directory.
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git commit -m "create day"
+[master 6e0648d] create day
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ ls
+file1.txt  t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ rm -rf file1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    file1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git rm file1.txt
+rm 'file1.txt'
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        deleted:    file1.txt
+
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git commit -m "del file1.txt"
+[master e7efdee] del file1.txt
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 file1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ ls
+t1.txt
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git log
+commit e7efdee2927450fb900c9a84b6961cf1ece415b9
+Author: fengxuetiangan <1757582775@qq.com>
+Date:   Thu Sep 24 17:40:04 2020 +0800
+
+    del file1.txt
+
+commit 6e0648dca7de8824e4c6792f2c503611b2bea375
+Author: fengxuetiangan <1757582775@qq.com>
+Date:   Thu Sep 24 17:38:09 2020 +0800
+
+    create day
+
+commit 672075ae734c6972da258b12646152e27cf6df36
+Author: fengxuetiangan <1757582775@qq.com>
+Date:   Thu Sep 24 17:21:54 2020 +0800
+
+    add thought
+
+commit af2f9e5d5286ea1d60dbb42f76ca3a2d45bbb8dd
+Author: fengxuetiangan <1757582775@qq.com>
+Date:   Thu Sep 24 17:01:48 2020 +0800
+
+    add
+
+commit 7296a157428c365763698085286ad6eef510fcba
+Author: fengxuetiangan <1757582775@qq.com>
+Date:   Thu Sep 24 16:26:30 2020 +0800
+
+    create new file named t1.txt and write cao and bao
+
+commit 535b539776bc88aa0ccd04c84834316c028ace42
+Author: fengxuetiangan <1757582775@qq.com>
+Date:   Thu Sep 24 16:16:13 2020 +0800
+
+    create new file named t1.txt and write hello fubao
+mscmskd
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ mscmskdms
+bash: mscmskdms: command not found
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git reflog
+e7efdee HEAD@{0}: commit: del file1.txt
+6e0648d HEAD@{1}: commit: create day
+672075a HEAD@{2}: reset: moving to 672075a
+af2f9e5 HEAD@{3}: reset: moving to head^
+672075a HEAD@{4}: commit: add thought
+af2f9e5 HEAD@{5}: reset: moving to af2f9e5
+7296a15 HEAD@{6}: reset: moving to head^
+af2f9e5 HEAD@{7}: commit: add
+7296a15 HEAD@{8}: commit: create new file named t1.txt and write cao and bao
+535b539 HEAD@{9}: commit (initial): create new file named t1.txt and write hello fubao
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ git reset --hard 6e0648d
+HEAD is now at 6e0648d create day
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ cat file1.txt
+I never forget that day
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ history
+    1* '~$
+    2  ls
+    3  cd Desktop
+    4  cd Desktop/
+    5  pwd
+    6  ls
+    7  ls -a
+    8  ls -l
+    9  ls -a-l
+   10  ls -a -al
+   11  ls -al
+   12  ls -ll
+   13  jistory
+   14  history
+   15  12
+   16  ls -ll
+   17  history 10
+   18  touch a1.tat
+   19  mkdir wen
+   20  dir wen
+   21  rmkir wen
+   22  rmdir wen
+   23  mkdir check
+   24  cd check
+   25  mkdir 11
+   26  cd..
+   27  cd
+   28  cd Desktop
+   29  rmdir check
+   30  rm -r check
+   31  rm -ri a1.tat
+   32  n
+   33  rm -ri a1.tat
+   34  touch a1.tet
+   35  rm -rf a1.tet
+   36  pwd
+   37  touch a2.tyt
+   38  touch a3.txt
+   39  cat a3.txt
+   40  cat a3.txt
+   41  head -2 a3.txt
+   42  tail -3 a3.txt
+   43  tac a3.txt
+   44  cd a3.txt
+   45  vim a3.txt
+   46  vim a3.txt
+   47  history
+   48  vim a3.txt
+   49  vim a3.txt
+   50  vim a3.txt
+   51  history
+   52  history
+   53  vim a3.txt
+   54  vim a3.txt
+   55  pwd
+   56  ls
+   57  ls -l
+   58  clear
+   59  ls
+   60  rm -ri '~$39-侯庆春-8分钟.pptx'
+   61  ls
+   62  rm -ri '~$活动.docc'
+   63  rm -ri '~$活动.doc'
+   64  ls
+   65  less a3.txt
+   66  more a3.txt
+   67  little a3.txt
+   68  most a3.txt
+   69  less a3.txt
+   70  history
+   71  clear
+   72  f:
+   73  mkdir git2020
+   74  cd git2020/
+   75  git init
+   76  ls -a
+   77  cd..
+   78  cd
+   79  cd desktop
+   80  cd git2020
+   81
+   82  clear
+   83  cd .git
+   84  ls
+   85  cd.
+   86  cd..
+   87  cd ..
+   88  pwd
+   89  touch t1.txt
+   90  vim t1.txt
+   91  git add t1.txt
+   92  cat t1.txt
+   93  git commit -m "create new file named t1.txt and write hello fubao"
+   94  git config --global user.email "1757582775@qq.com"
+   95  git config --global user.name "fengxuetiangan"
+   96  git commit -m "create new file named t1.txt and write hello fubao"
+   97  history
+   98  vim t1.txt
+   99  git add t1.txt
+  100*
+  101  git add t1.txt
+  102  git commit -m "create new file named t1.txt and write cao and bao"
+  103  git status
+  104  vim t1.txt
+  105  git status
+  106  git commit -m "delete and bao"
+  107  git status
+  108  git add t1.txt
+  109  git status
+  110  git diff
+  111  git log
+  112  535b539776bc88aa0ccd04c84834316c028ace42
+  113  git log --pretty=onrline
+  114  git log --pretty=oneline
+  115  vim t1.txt
+  116  git add t1.txt
+  117  git commit -m "add"
+  118  git status
+  119  git log --pretty=oneline
+  120  head~2
+  121  git head~1
+  122  git commit id=7296a157428c365763698085286ad6eef510fcba
+  123  git status
+  124  cat t1.txt
+  125  git reset --hard head^
+  126  cat t1.txt
+  127  git log --pretty=oneline
+  128  git reset --hard af2f9e5
+  129  cat t1.txt
+  130  git reflog
+  131  vim t1.txt
+  132  git add t1.txt
+  133  git commit -m 'add thought'
+  134  git status
+  135  git log
+  136  git log --pretty oneline
+  137  git log --pretty=oneline
+  138  git reflog
+  139  get reset --hard head^
+  140  git reset --hard head^
+  141  git reset --hard 672075a
+  142  vim ttxt
+  143  vim t1.txt
+  144  git status
+  145  cat t1.txt
+  146  git checkout -- t1.txt
+  147  cat t1.txt
+  148  vim t1.txt
+  149  git add t1.txt
+  150  git status
+  151  cat t1.txt
+  152  git reset head t1.txt
+  153  cat t1.txt
+  154  git checkout -- t1.txt
+  155  cat t1.txt
+  156  git status
+  157  git add
+  158  n
+  159  git add
+  160  ls
+  161  rm -ri ttxt
+  162  ls
+  163  ls -a
+  164  ls -l
+  165  ls -ll
+  166  ls -al
+  167  git log
+  168  git log --pretty=oneline
+  169  touch file1.txt
+  170  vim file1.txt
+  171  git add file1.txt
+  172  git commit -m "create day"
+  173  ls
+  174  rm -rf file1.txt
+  175  git status
+  176  git rm file1.txt
+  177  git status
+  178  git commit -m "del file1.txt"
+  179  git status
+  180  ls
+  181  git log
+  182  mscmskdms
+  183  git reflog
+  184  git reset --hard 6e0648d
+  185  cat file1.txt
+  186  history
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$ ^C
+20200925
+
+Administrator@PC-20180120JSDD MINGW64 ~/desktop/git2020 (master)
+$
